@@ -9,14 +9,16 @@ module.exports = {
       "dark-grayish-blue": "hsl(219, 9%, 45%)",
       "grayish-blue": "hsl(220, 14%, 75%)",
       "light-grayish-blue": "hsl(223, 64%, 98%)",
+      white: "#fff",
     },
     fontFamily: {
       kumbh: ["Kumbh Sans", "ui-sans-serif"],
     },
-    fontSize: {
-      body: "16px",
+    extend: {
+      boxShadow: {
+        "add-to-cart": "0px 25px 31px -23px rgba(66, 68, 90, 1)",
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
