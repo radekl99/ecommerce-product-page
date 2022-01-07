@@ -28,8 +28,13 @@ function App() {
   return (
     <div className="flex flex-col items-center">
       <Header />
-      <div className="my-24 flex gap-32">
-        <Photos photos={productPhotos} thumbnails={productPhotosThumbnails} />
+      <div className="md:my-24 flex flex-col md:flex-row md:gap-32">
+        <Photos
+          photos={productPhotos}
+          thumbnails={productPhotosThumbnails}
+          initialPhoto={0}
+          canOpenLightbox={false}
+        />
         <ProductDetails />
       </div>
     </div>

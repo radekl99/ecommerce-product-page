@@ -1,7 +1,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    screens: { lg: "1440px" },
+    screens: { md: "1024px", lg: "1440px" },
     colors: {
       orange: "hsl(26, 100%, 55%)",
       "pale-orange": "hsl(25, 100%, 94%)",
@@ -10,6 +10,7 @@ module.exports = {
       "grayish-blue": "hsl(220, 14%, 75%)",
       "light-grayish-blue": "hsl(223, 64%, 98%)",
       white: "#fff",
+      black: "#000",
     },
     fontFamily: {
       kumbh: ["Kumbh Sans", "ui-sans-serif"],

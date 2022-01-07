@@ -2,12 +2,13 @@ const Thumbnails = (props) => {
   const { thumbnails, setActivePhoto, activePhoto } = props;
 
   return (
-    <div className=" flex justify-between">
+    <div className="hidden md:flex justify-between">
       {thumbnails.map((thumbnail, index) => (
         <div
           className={`rounded-lg w-20 overflow-hidden ${
             activePhoto === index && "outline outline-3 outline-orange"
           }`}
+          key={index}
         >
           <img
             src={thumbnail}

@@ -1,6 +1,9 @@
-const NavItem = ({ children }) => {
+const NavItem = ({ children, navKey }) => {
   return (
-    <li className="transition relative h-full flex items-center cursor-pointer hover:text-very-dark-blue before:absolute before:bottom-0 before:bg-orange before:h-1 before:w-0 hover:before:w-full before:transition">
+    <li
+      className="md:transition relative md:h-full flex items-center cursor-pointer text-very-dark-blue font-bold md:font-normal md:text-grayish-blue text-lg md:text-base md:hover:text-very-dark-blue md:before:absolute md:before:bottom-0 md:before:bg-orange md:before:h-1 md:before:w-0 md:hover:before:w-full md:before:transition"
+      key={navKey}
+    >
       {children}
     </li>
   );
