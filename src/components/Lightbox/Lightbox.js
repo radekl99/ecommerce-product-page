@@ -60,7 +60,7 @@ const Lightbox = (props) => {
           activePhoto={activePhoto}
         />
       </div>
-      <Backdrop onClick={props.closeLightbox} />
+      <Backdrop onClick={props.closeLightbox} className="md:fixed" />
     </div>
   );
 };

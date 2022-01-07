@@ -22,7 +22,7 @@ const Nav = () => {
         } md:-translate-x-0`}
       >
         {showNav && (
-          <Backdrop className="md:hidden" onClick={() => setShowNav(false)} />
+          <Backdrop className="fixed md:hidden" onClick={() => setShowNav(false)} />
         )}
         <FontAwesomeIcon
           icon={faTimes}

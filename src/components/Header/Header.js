@@ -1,8 +1,7 @@
 import Logo from "../../images/logo.svg";
 import Photo from "../../images/image-avatar.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import Nav from "../Nav/Nav";
+import Cart from "../Cart/Cart";
 
 const Header = () => {
   return (
@@ -12,10 +11,7 @@ const Header = () => {
         <Nav />
       </div>
       <div className=" flex gap-6 md:gap-14 items-center">
-        <FontAwesomeIcon
-          icon={faShoppingCart}
-          className=" transition cursor-pointer text-xl text-grayish-blue hover:text-very-dark-blue"
-        />
+        <Cart />
         <img
           src={Photo}
           alt="Profile"
