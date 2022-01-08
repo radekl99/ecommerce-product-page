@@ -44,7 +44,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- Redux - For simple Cart store
+- [Redux](https://redux.js.org/) - For simple Cart store
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
 - [Font Awesome](https://fontawesome.com/) - For icons
 
