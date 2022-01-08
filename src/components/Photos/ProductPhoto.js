@@ -26,7 +26,7 @@ const ProductPhoto = (props) => {
           className=" bg-transparent lg:absolute w-full h-full cursor-pointer"
           onClick={props.onClick}
         ></div>
-        <img src={photos[activePhoto]} className="md:rounded-xl" />
+        <img src={photos[activePhoto]} alt="" className="md:rounded-xl" />
       </div>
     </div>
   );

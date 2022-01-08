@@ -12,6 +12,7 @@ const Thumbnails = (props) => {
         >
           <img
             src={thumbnail}
+            alt=""
             className={`transition  cursor-pointer hover:opacity-50  ${
               activePhoto === index && "opacity-50"
             }`}
