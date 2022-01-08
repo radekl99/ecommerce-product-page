@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/ecommerce-product-page-8YUn2c693
 - Live Site URL: https://radekl99.github.io/ecommerce-product-page/
 
 ## My process
