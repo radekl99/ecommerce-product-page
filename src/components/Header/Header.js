@@ -5,8 +5,8 @@ import Cart from "../Cart/Cart";
 
 const Header = () => {
   return (
-    <header className=" h-20 md:h-28 px-6 md:px-0 flex items-center justify-between font-kumbh w-screen md:w-9/12 md:border-b-2 md:border-light-grayish-blue">
-      <div className=" h-full flex flex-row-reverse md:flex-row gap-4 md:gap-14 justify-center items-center">
+    <header className=" h-20 lg:h-28 px-6 lg:px-0 flex items-center justify-between font-kumbh w-screen lg:w-9/12 md:border-b-2 md:border-light-grayish-blue">
+      <div className=" h-full flex flex-row-reverse lg:flex-row gap-4 lg:gap-14 justify-center items-center">
         <img src={Logo} alt="logo" className="cursor-pointer" />
         <Nav />
       </div>

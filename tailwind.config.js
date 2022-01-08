@@ -1,7 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    screens: { md: "1024px", lg: "1440px" },
     colors: {
       orange: "hsl(26, 100%, 55%)",
       "pale-orange": "hsl(25, 100%, 94%)",

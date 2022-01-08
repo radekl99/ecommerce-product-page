@@ -12,7 +12,7 @@ const ProductDetails = () => {
           Fall Limited Edition Sneakers
         </h1>
       </div>
-      <p className="text-dark-grayish-blue text-base md:text-sm">
+      <p className="text-dark-grayish-blue text-base lg:text-sm">
         These low-profile sneakers are your perfect casual wear companion.
         Featuring a durable rubber outer sole, they’ll withstand everything the
         weather can offer.

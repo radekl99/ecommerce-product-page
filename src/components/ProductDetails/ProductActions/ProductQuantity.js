@@ -5,7 +5,7 @@ const ProductQuantity = (props) => {
   const { quantity, plus, minus } = props;
 
   return (
-    <div className=" flex items-center justify-between md:w-32 h-12 px-5 md:px-2 bg-light-grayish-blue rounded-md font-bold">
+    <div className=" flex items-center justify-between lg:w-32 h-12 px-5 lg:px-2 bg-light-grayish-blue rounded-md font-bold">
       <FontAwesomeIcon
         icon={faMinus}
         className="text-orange cursor-pointer"

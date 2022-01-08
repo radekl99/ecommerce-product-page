@@ -24,11 +24,11 @@ const productPhotosThumbnails = [
   ProductThumbnail4,
 ];
 
-function App() {
+function ProductPage() {
   return (
     <div className="flex flex-col items-center">
       <Header />
-      <div className="md:my-24 flex flex-col md:flex-row md:gap-32">
+      <div className="md:my-12 lg:my-24 flex flex-col lg:flex-row md:gap-12 lg:gap-32">
         <Photos
           photos={productPhotos}
           thumbnails={productPhotosThumbnails}
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default ProductPage;

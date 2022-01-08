@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <nav className="h-full flex">
-      <div className=" flex items-center md:hidden">
+      <div className=" flex items-center lg:hidden">
         <FontAwesomeIcon
           icon={faBars}
           className=" justify-self-center text-dark-grayish-blue text-2xl"
@@ -17,19 +17,22 @@ const Nav = () => {
         />
       </div>
       <div
-        className={`transition-all fixed top-0 left-0 w-64 md:w-fit p-8 md:p-0 bg-white md:relative z-20 md:z-0 h-screen md:h-full flex flex-col gap-10 ${
+        className={`transition-all fixed top-0 left-0 w-64 lg:w-fit p-8 lg:p-0 bg-white lg:relative z-20 lg:z-0 h-screen lg:h-full flex flex-col gap-10 ${
           showNav ? " -translate-x-0" : "-translate-x-full"
-        } md:-translate-x-0`}
+        } lg:-translate-x-0`}
       >
         {showNav && (
-          <Backdrop className="fixed md:hidden" onClick={() => setShowNav(false)} />
+          <Backdrop
+            className="fixed lg:hidden"
+            onClick={() => setShowNav(false)}
+          />
         )}
         <FontAwesomeIcon
           icon={faTimes}
-          className="text-xl text-dark-grayish-blue md:hidden"
+          className="text-xl text-dark-grayish-blue lg:hidden"
           onClick={() => setShowNav(false)}
         />
-        <ul className="flex flex-col md:flex-row items-start md:items-center md:h-full gap-5 md:gap-8 text-grayish-blue">
+        <ul className="flex flex-col lg:flex-row items-start lg:items-center lg:h-full gap-5 lg:gap-8 text-grayish-blue">
           <NavItem navKey={"nav-1"}>Collections</NavItem>
           <NavItem navKey={"nav-2"}>Men</NavItem>
           <NavItem navKey={"nav-3"}>Women</NavItem>
